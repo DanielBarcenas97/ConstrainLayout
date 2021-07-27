@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="120dp"
+        android:fontFamily="@font/montserrat_bold"
+        android:gravity="center"
+        android:text="VIP"
+        android:textColor="#421B3A"
+        android:textSize="19sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </TextView>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="137dp"
+        android:layout_height="132dp"
+        android:background="@drawable/background_circle"
+        android:gravity="center"
+        android:padding="20dp"
+        android:src="@drawable/ic_vip"
+        tools:layout_editor_absoluteX="137dp"
+        tools:layout_editor_absoluteY="174dp">
+    </ImageView>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/montserrat_black"
+        android:gravity="center"
+        android:text="likes y mensajes ilimitados"
+        android:textColor="#421B3A"
+        tools:layout_editor_absoluteX="102dp"
+        tools:layout_editor_absoluteY="334dp" />
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="63dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="63dp"
+        android:background="@drawable/button_pink"
+        android:text="Ghost"
+        android:textColor="#8F8C92"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="419dp" />
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="63dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="63dp"
+        android:text="Premium"
+        android:background="@drawable/button_pink"
+        style="@style/Button_transparent"
+        android:textColor="#8F8C92"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="362dp"/>
+
+    <Button
+        style="@style/Button_transparent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="63dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="63dp"
+        android:text="Vip"
+        android:textColor="#8F8C92"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="477dp" />
+
+    <Button
+        style="@style/Button_transparent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="63dp"
+        app:layout_goneMarginTop="10dp"
+        android:layout_marginEnd="63dp"
+        android:background="@drawable/button_pink"
+        android:text="Obtener"
+        android:textColor="#8F8C92"
+        android:layout_marginTop="63dp"
+        tools:layout_editor_absoluteX="15dp"
+        tools:layout_editor_absoluteY="547dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Después"
+        tools:layout_editor_absoluteX="178dp"
+        tools:layout_editor_absoluteY="613dp"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
