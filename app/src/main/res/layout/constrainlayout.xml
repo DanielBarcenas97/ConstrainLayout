@@ -8,104 +8,110 @@
 
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/tv_title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="120dp"
+        android:layout_marginTop="99dp"
         android:fontFamily="@font/montserrat_bold"
-        android:gravity="center"
         android:text="VIP"
         android:textColor="#421B3A"
         android:textSize="19sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
-
-    </TextView>
+        app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="137dp"
-        android:layout_height="132dp"
+        android:layout_width="85dp"
+        android:layout_height="85dp"
         android:background="@drawable/background_circle"
-        android:gravity="center"
-        android:padding="20dp"
+        android:padding="12dp"
+        android:layout_marginTop="15dp"
         android:src="@drawable/ic_vip"
-        tools:layout_editor_absoluteX="137dp"
-        tools:layout_editor_absoluteY="174dp">
-    </ImageView>
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_title" />
+
 
     <TextView
         android:id="@+id/textView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:fontFamily="@font/montserrat_black"
-        android:gravity="center"
+        android:fontFamily="@font/montserrat_semi_bold"
+        android:textSize="14sp"
         android:text="likes y mensajes ilimitados"
-        android:textColor="#421B3A"
-        tools:layout_editor_absoluteX="102dp"
-        tools:layout_editor_absoluteY="334dp" />
-
+        android:textColor="@color/l_txtt"
+        android:layout_marginTop="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
 
     <Button
+        android:id="@+id/button"
+        style="@style/Button_pink"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="63dp"
-        android:layout_marginTop="10dp"
-        android:layout_marginEnd="63dp"
-        android:background="@drawable/button_pink"
-        android:text="Ghost"
-        android:textColor="#8F8C92"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="419dp" />
-
-
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="63dp"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="30dp"
         android:layout_marginEnd="63dp"
         android:text="Premium"
-        android:background="@drawable/button_pink"
-        style="@style/Button_transparent"
-        android:textColor="#8F8C92"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="362dp"/>
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
 
     <Button
-        style="@style/Button_transparent"
+        android:id="@+id/button2"
+        style="@style/Button_pink"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="63dp"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="63dp"
+        android:text="Ghost"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button" />
+
+
+    <Button
+        android:id="@+id/button3"
+        style="@style/Button_transparent"
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+        android:layout_marginStart="63dp"
+        android:layout_marginTop="12dp"
         android:layout_marginEnd="63dp"
         android:text="Vip"
-        android:textColor="#8F8C92"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="477dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button2" />
 
     <Button
-        style="@style/Button_transparent"
+        android:id="@+id/button4"
+        style="@style/Button_gris"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="63dp"
-        app:layout_goneMarginTop="10dp"
+        android:layout_marginTop="23dp"
         android:layout_marginEnd="63dp"
-        android:background="@drawable/button_pink"
         android:text="Obtener"
-        android:textColor="#8F8C92"
-        android:layout_marginTop="63dp"
-        tools:layout_editor_absoluteX="15dp"
-        tools:layout_editor_absoluteY="547dp"/>
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button3" />
 
     <TextView
+        android:layout_marginTop="26dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:gravity="center"
         android:text="Después"
-        tools:layout_editor_absoluteX="178dp"
-        tools:layout_editor_absoluteY="613dp"/>
+        android:textColor="@color/l_moradas"
+        android:fontFamily="@font/montserrat_semi_bold"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button4" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

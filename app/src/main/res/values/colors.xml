@@ -7,4 +7,12 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+
+
+    <color name="button_gris">#716B6B</color>
+    <color name="l_gris">#504C54</color>
+    <color name="l_rojas">#FF747C</color>
+    <color name="l_moradas">#9A421B3A</color>
+    <color name="l_txtt">#421B3A</color>
+
 </resources>
